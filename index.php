@@ -21,7 +21,7 @@ if ($text == "") {
     $accountbalance = "#10, 000";
     $response = "END Your account balance is ".$accountbalance;
 }
-header('content-type; text/plain');
+header('content-type: text/plain');
 echo $response;
 
 ?>
